@@ -9,11 +9,11 @@ import javax.swing.JOptionPane;
 
 public class Note2 {
 
- public static void main ( String args[] ) {
+  public static void main ( String args[] ) {
 
     // dialog output
     JOptionPane.showMessageDialog(null, "Hello World!");
-    
+
     // dialog input
     String number = JOptionPane.showInputDialog("Enter an integer:");
 
@@ -25,6 +25,6 @@ public class Note2 {
 
     System.exit(0); // terminate application
 
- } //end method main
+  } //end method main
 
 } //end class Note2
