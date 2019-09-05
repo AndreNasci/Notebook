@@ -11,14 +11,16 @@ public class Note2 {
 
  public static void main ( String args[] ) {
 
+    // dialog output
     JOptionPane.showMessageDialog(null, "Hello World!");
-
+    
+    // dialog input
     String number = JOptionPane.showInputDialog("Enter an integer:");
 
-    // converte String em valores int
+    // converts String to int
     int numberInt = Integer.parseInt(number);
 
-    // exibe o resultado em um diálogo de mensagem JOptionPane
+    // shows the number in a JOptionPane dialog message
     JOptionPane.showMessageDialog(null, "The number is " + number + "!");
 
     System.exit(0); // terminate application
